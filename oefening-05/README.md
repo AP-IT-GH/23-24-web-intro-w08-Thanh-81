@@ -20,3 +20,17 @@ Tijdens dit labo leer je
 2. Gebruik de endpoint /top-headlines.
 3. Voeg een X-Api-Key header toe met je API-sleutel.
 4. Voer het verzoek uit en bekijk de respons.
+
+https://newsapi.org/v2/top-headlines?country=be
+
+Onder het tablad 'Auth' X-Api-Key toegevoegd
+
+{
+    "status": "ok",
+    "totalResults": 33,
+    "articles": [
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
